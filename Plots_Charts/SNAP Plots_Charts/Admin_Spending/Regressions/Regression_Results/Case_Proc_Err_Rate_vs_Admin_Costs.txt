@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	Case_Proc_Err_Rate vs. Admin Costs
+	
+Tot_Admn_Cost_Per_Case_Per_Mnth	0.560***
+	(0.171)
+Constant	10.35*
+	(5.329)
+	
+Observations	432
+Number of State_num	54
+R-squared	0.114
+Within R-squared	0.114
+Between R-squared	0.0113
+Overall R-squared	0.0279
+F-test	10.71
+Prob > F	0.00188
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

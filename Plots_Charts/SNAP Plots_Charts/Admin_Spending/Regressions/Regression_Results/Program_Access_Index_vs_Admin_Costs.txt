@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	Program_Access_Index vs. Admin Costs
+	
+Tot_Admn_Cost_Per_Case_Per_Mnth	-0.00759***
+	(0.000740)
+Constant	0.952***
+	(0.0258)
+	
+Observations	880
+Number of State_num	52
+R-squared	0.322
+Within R-squared	0.322
+Between R-squared	0.150
+Overall R-squared	0.192
+F-test	105
+Prob > F	0
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

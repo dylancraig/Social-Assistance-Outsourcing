@@ -1,0 +1,16 @@
+Effect of Attempted SNAP Modernization on Participation (in Logs)
+----------------------------
+                      (1)   
+             log_partic~n   
+----------------------------
+snap_initi~d        0.030   
+                  (0.037)   
+
+_cons              12.915***
+                  (0.014)   
+----------------------------
+Observations          850   
+Within R-sq.        0.005   
+----------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01

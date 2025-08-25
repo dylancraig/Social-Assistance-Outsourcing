@@ -1,0 +1,16 @@
+Effect of Attempted SNAP Modernization on Admin Costs per Recipient (in Logs)
+----------------------------
+                      (1)   
+             log_admin_~r   
+----------------------------
+snap_initi~d        0.015   
+                  (0.042)   
+
+_cons               5.141***
+                  (0.017)   
+----------------------------
+Observations          850   
+Within R-sq.        0.001   
+----------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01

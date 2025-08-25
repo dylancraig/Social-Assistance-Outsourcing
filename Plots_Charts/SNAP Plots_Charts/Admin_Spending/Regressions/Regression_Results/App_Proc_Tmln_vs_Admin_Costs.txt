@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	App_Proc_Tmln vs. Admin Costs
+	
+Tot_Admn_Cost_Per_Case_Per_Mnth	0.160**
+	(0.0644)
+Constant	84.53***
+	(2.008)
+	
+Observations	424
+Number of State_num	53
+R-squared	0.038
+Within R-squared	0.0384
+Between R-squared	0.00853
+Overall R-squared	0.0136
+F-test	6.177
+Prob > F	0.0162
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

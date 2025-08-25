@@ -1,0 +1,151 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:/Users/dscra/OneDrive - University of Virginia/Social Assistance Outsourcing Project\Plots_Charts\SNAP Plots_Charts\Year_Over_Year_Growth.txt
+  log type:  text
+ opened on:  14 May 2025, 11:17:10
+
+. 
+. * Print header
+. display "Variable Counts and Labels:"
+Variable Counts and Labels:
+
+. display "===================================="
+====================================
+
+. 
+. * Loop through each variable, count `1`s, and include its label
+. foreach var of local indicators {
+  2.     count if `var' == 1
+  3.     local count = r(N)
+  4.     local label : variable label `var'
+  5.     display "`var': `count' (`label')"
+  6. }
+  355
+TCostG1_5: 355 (5% increase (1 year) in Tot_Admn_Cost)
+  4
+TCostG1_50: 4 (50% increase (1 year) in Tot_Admn_Cost)
+  0
+TCostG1_100: 0 (100% increase (1 year) in Tot_Admn_Cost)
+  0
+TCostG1_200: 0 (200% increase (1 year) in Tot_Admn_Cost)
+  488
+TCostG2_5: 488 (5% increase (2 years) in Tot_Admn_Cost)
+  8
+TCostG2_50: 8 (50% increase (2 years) in Tot_Admn_Cost)
+  0
+TCostG2_100: 0 (100% increase (2 years) in Tot_Admn_Cost)
+  0
+TCostG2_200: 0 (200% increase (2 years) in Tot_Admn_Cost)
+  536
+TCostG3_5: 536 (5% increase (3 years) in Tot_Admn_Cost)
+  22
+TCostG3_50: 22 (50% increase (3 years) in Tot_Admn_Cost)
+  0
+TCostG3_100: 0 (100% increase (3 years) in Tot_Admn_Cost)
+  0
+TCostG3_200: 0 (200% increase (3 years) in Tot_Admn_Cost)
+  283
+TCaseG1_5: 283 (5% increase (1 year) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  2
+TCaseG1_50: 2 (50% increase (1 year) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  0
+TCaseG1_100: 0 (100% increase (1 year) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  0
+TCaseG1_200: 0 (200% increase (1 year) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  350
+TCaseG2_5: 350 (5% increase (2 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  14
+TCaseG2_50: 14 (50% increase (2 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  1
+TCaseG2_100: 1 (100% increase (2 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  0
+TCaseG2_200: 0 (200% increase (2 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  341
+TCaseG3_5: 341 (5% increase (3 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  32
+TCaseG3_50: 32 (50% increase (3 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  2
+TCaseG3_100: 2 (100% increase (3 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  0
+TCaseG3_200: 0 (200% increase (3 years) in Tot_Admn_Cost_Per_Case_Per_Mnth)
+  338
+OPayG1_5: 338 (5% increase (1 year) in Over_Payments)
+  65
+OPayG1_50: 65 (50% increase (1 year) in Over_Payments)
+  13
+OPayG1_100: 13 (100% increase (1 year) in Over_Payments)
+  2
+OPayG1_200: 2 (200% increase (1 year) in Over_Payments)
+  248
+OPayG2_5: 248 (5% increase (2 years) in Over_Payments)
+  72
+OPayG2_50: 72 (50% increase (2 years) in Over_Payments)
+  21
+OPayG2_100: 21 (100% increase (2 years) in Over_Payments)
+  4
+OPayG2_200: 4 (200% increase (2 years) in Over_Payments)
+  264
+OPayG3_5: 264 (5% increase (3 years) in Over_Payments)
+  117
+OPayG3_50: 117 (50% increase (3 years) in Over_Payments)
+  52
+OPayG3_100: 52 (100% increase (3 years) in Over_Payments)
+  23
+OPayG3_200: 23 (200% increase (3 years) in Over_Payments)
+  319
+UPayG1_5: 319 (5% increase (1 year) in Under_Payments)
+  118
+UPayG1_50: 118 (50% increase (1 year) in Under_Payments)
+  48
+UPayG1_100: 48 (100% increase (1 year) in Under_Payments)
+  9
+UPayG1_200: 9 (200% increase (1 year) in Under_Payments)
+  224
+UPayG2_5: 224 (5% increase (2 years) in Under_Payments)
+  80
+UPayG2_50: 80 (50% increase (2 years) in Under_Payments)
+  33
+UPayG2_100: 33 (100% increase (2 years) in Under_Payments)
+  12
+UPayG2_200: 12 (200% increase (2 years) in Under_Payments)
+  225
+UPayG3_5: 225 (5% increase (3 years) in Under_Payments)
+  107
+UPayG3_50: 107 (50% increase (3 years) in Under_Payments)
+  52
+UPayG3_100: 52 (100% increase (3 years) in Under_Payments)
+  21
+UPayG3_200: 21 (200% increase (3 years) in Under_Payments)
+  322
+PErrG1_5: 322 (5% increase (1 year) in Payment_Error_Rate)
+  50
+PErrG1_50: 50 (50% increase (1 year) in Payment_Error_Rate)
+  13
+PErrG1_100: 13 (100% increase (1 year) in Payment_Error_Rate)
+  2
+PErrG1_200: 2 (200% increase (1 year) in Payment_Error_Rate)
+  239
+PErrG2_5: 239 (5% increase (2 years) in Payment_Error_Rate)
+  64
+PErrG2_50: 64 (50% increase (2 years) in Payment_Error_Rate)
+  17
+PErrG2_100: 17 (100% increase (2 years) in Payment_Error_Rate)
+  1
+PErrG2_200: 1 (200% increase (2 years) in Payment_Error_Rate)
+  251
+PErrG3_5: 251 (5% increase (3 years) in Payment_Error_Rate)
+  92
+PErrG3_50: 92 (50% increase (3 years) in Payment_Error_Rate)
+  50
+PErrG3_100: 50 (100% increase (3 years) in Payment_Error_Rate)
+  18
+PErrG3_200: 18 (200% increase (3 years) in Payment_Error_Rate)
+
+. 
+. * Close log file
+. log close
+      name:  <unnamed>
+       log:  C:/Users/dscra/OneDrive - University of Virginia/Social Assistance Outsourcing Project\Plots_Charts\SNAP Plots_Charts\Year_Over_Year_Growth.txt
+  log type:  text
+ closed on:  14 May 2025, 11:17:10
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

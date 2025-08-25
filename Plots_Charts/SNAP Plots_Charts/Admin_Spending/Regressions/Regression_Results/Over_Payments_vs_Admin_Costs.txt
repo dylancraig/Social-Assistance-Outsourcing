@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	Over_Payments vs. Admin Costs
+	
+Tot_Admn_Cost_Per_Case_Per_Mnth	0.0335**
+	(0.0149)
+Constant	3.077***
+	(0.544)
+	
+Observations	810
+Number of State_num	54
+R-squared	0.034
+Within R-squared	0.0335
+Between R-squared	0.0128
+Overall R-squared	0.000882
+F-test	5.062
+Prob > F	0.0286
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

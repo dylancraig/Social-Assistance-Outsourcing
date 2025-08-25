@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	Payment_Error_Rate vs. Admin Costs
+	
+Tot_Admn_Cost_Per_Case_Per_Mnth	0.0487**
+	(0.0189)
+Constant	3.567***
+	(0.692)
+	
+Observations	810
+Number of State_num	54
+R-squared	0.050
+Within R-squared	0.0504
+Between R-squared	0.00309
+Overall R-squared	0.00534
+F-test	6.615
+Prob > F	0.0130
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

@@ -1,0 +1,34 @@
+Effect of Completed SNAP Modernization on Admin Costs
+----------------------------
+                      (1)   
+             Tot_Admn_C~t   
+----------------------------
+snap_compl~d  1130443.738   
+             (7929483.293)   
+
+A_MEDIAN       -13668.627*  
+               (7478.499)   
+
+A_Med_Gros~t   439018.041** 
+             (215690.989)   
+
+bbce          1655446.832   
+             (15719820.284)   
+
+oapp         -7767544.194   
+             (9876589.217)   
+
+reportsimple    1.195e+08   
+             (87296130.722)   
+
+vehexclall   -5228208.370   
+             (17653702.602)   
+
+_cons           1.415e+08   
+              (1.258e+08)   
+----------------------------
+Observations          500   
+Within R-sq.        0.305   
+----------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01

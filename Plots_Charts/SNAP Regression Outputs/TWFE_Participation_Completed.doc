@@ -1,0 +1,34 @@
+Effect of Completed SNAP Modernization on Participation
+----------------------------
+                      (1)   
+             Part_Prsn_~g   
+----------------------------
+snap_compl~d    18074.581   
+              (35295.067)   
+
+A_MEDIAN            0.206   
+                 (14.070)   
+
+A_Med_Gros~t     -223.441   
+                (364.381)   
+
+bbce           -84389.223*  
+              (49669.002)   
+
+oapp           -20980.514   
+              (37213.770)   
+
+reportsimple   185175.209   
+             (129248.500)   
+
+vehexclall      -3639.795   
+              (32690.409)   
+
+_cons          956793.960   
+             (596233.717)   
+----------------------------
+Observations          500   
+Within R-sq.        0.059   
+----------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01
